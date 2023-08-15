@@ -1,4 +1,4 @@
-### 기존에 작업하던 프로젝트 github에 올리는법
+## 1. 기존에 작업하던 프로젝트 github에 올리는법
 
 #### 깃허브에 들어가서 repository 새로 생성한다. (단. Read.ME 만들지말것!!! 나중에 commit할때 충돌남!!) 
 
@@ -22,6 +22,37 @@
 #### github repository에 자신의 프로젝트 추가
     git remote add origin <조금 전 repository에서 복사한 주소>
 
-#### 커밋한 파일을 push
+#### 커밋한 파일을 push (git push [저장소이름] [브랜치이름])
     git push origin master
+    
+## 2. 기타 git 명령어 
+
+#### remote의 commit을 가져오고 병합 (git fetch + git merge)
+        git pull
+
+#### 사용자 성정 정보 확인
+        git config --list
+
+#### 사용자 이름 , Email 설정
+        git config --global user.email "자신의이메일"
+        git config --global user.name "자신의 이름/닉네임"
+        
+#### 사용자 설정 정보 확인
+        git config --global user.email 
+        git config --global user.name 
+        
+#### 기존에 사용 중인 저장소를 clone 해서 가져옴
+        git clone [url]
+
+#### 브랜치 목록 조회 (*가 현재 브랜치)
+        git branch
+
+#### 브랜치 신규 생성
+        git branch [브랜치네임]
+
+#### 브랜치 변경후 해당파일을 Working directory에 복사
+        git checkout [변경하고자하는 브랜치명]
+
+
+        
     
