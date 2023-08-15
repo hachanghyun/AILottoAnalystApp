@@ -13,6 +13,7 @@
 
 #### 자신이 commit 할 파일을 추가해준다 ("git add ." 은 모든파일 선택, git add <파일/디렉토리경로>)
     git add .
+    git add *
     git add <파일/디렉토리 경로명>
 
 #### 추가했던 파일 commit 
