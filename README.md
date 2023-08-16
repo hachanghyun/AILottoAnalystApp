@@ -20,9 +20,6 @@
 #### expo 프로젝트 실행
     npx expo start 
     npm start 
-
-##### 웹뷰앱 개발을 위한 안드로이드 apk 시뮬레이터에 배포 명령어
-     eas build -p android --profile preview
      
 ##### webview app 라이브러리 설치
     npx expo install react-native-webview
@@ -36,5 +33,8 @@
 ##### ios 배포진행
     eas submit --platform ios 
 
-#### 안드로이드 빌드
+##### 안드로이드 빌드
+     eas build -p android --profile preview
+     
+#### 안드로이드 빌드 (이거 사용하니까 키값 오류뜨더라)
     eas build -p android
