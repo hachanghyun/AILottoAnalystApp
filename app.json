@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "chatGptWebView",
-    "slug": "chatGptWebView",
-    "version": "1.0.0",
+    "name": "AILottoAnalyst",
+    "slug": "AILottoAnalyst",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,21 +16,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.hahaha123123.chatGptWebView"
+      "bundleIdentifier": "com.hotong.ailottoanalyst"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.hahaha123123.chatGptWebView"
+      "package": "com.hotong.ailottoanalyst"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "9b2aaf7b-62fc-4d1b-98bf-c627bf1ee6aa"
+        "projectId": "40558eae-cf85-4718-a299-3e9ec25c461c"
       }
     }
   }
