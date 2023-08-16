@@ -33,6 +33,27 @@
 ##### ios 배포진행
     eas submit --platform ios 
 
+##### eas.json
+            {
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+
+
 ##### 안드로이드 빌드
      eas build -p android --profile preview
      
