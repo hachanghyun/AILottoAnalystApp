@@ -26,15 +26,15 @@
      
 ##### webview app 라이브러리 설치
     npx expo install react-native-webview
-
-##### ios 배포진행
-    eas submit --platform ios 
     
 #### 빌드전 실행
     npm install -g eas-cli
 
 #### IOS 빌드
     eas build -p ios
+
+##### ios 배포진행
+    eas submit --platform ios 
 
 #### 안드로이드 빌드
     eas build -p android
