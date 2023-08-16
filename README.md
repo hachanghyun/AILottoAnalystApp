@@ -54,8 +54,8 @@
             }
 
 
-##### 안드로이드 빌드
+##### 안드로이드 빌드 (에뮬레이터용 빌드)
      eas build -p android --profile preview
      
-#### 안드로이드 빌드 (이거 사용하니까 키값 오류뜨더라)
+#### 안드로이드 빌드 
     eas build -p android
