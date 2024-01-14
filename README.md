@@ -1,7 +1,7 @@
 ### webViewApp setting 명령어
 
 ### npm install node module 설치 명령어
-   다 패키지안에서 설치할것
+    다 패키지안에서 설치할것
  
 #### expo-cli 전역으로 설치해주는 명령어
     npm install -g expo-cli 
