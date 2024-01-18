@@ -5,7 +5,8 @@
 ### expo 프로젝트 만들어주는 명령어
     expo init "프로젝트명"
     
-### npm install node module 설치 명령어
+### node module 설치 명령어
+    npm install node module
     다 패키지안에서 설치할것
     
 ### expo 프로젝트 실행
