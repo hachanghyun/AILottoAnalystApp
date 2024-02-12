@@ -3,30 +3,19 @@
     npm install -g expo-cli 
 
 ### expo 프로젝트 만들어주는 명령어
-    expo init "프로젝트명"
+    npx react-native init awsSaaSummaryApp
     
-### node module 설치 명령어
-    npm install node module
-    다 패키지안에서 설치할것
-    
+### node module 설치 명령어(패키지안에서 실행)
+    npm install
+     
 ### expo 프로젝트 실행
-    npm init
+    npm start
     
-### eas 세팅
-    npm install -g eas-cli
-
 ### log in expo accout
     eas login
 
 ### configure the project
     eas build:configure
-
-### expo 프로젝트 실행
-    npx expo start 
-    npm start 
-     
-### webview app 라이브러리 설치
-    npx expo install react-native-webview
     
 ### 빌드전 실행
     npm install -g eas-cli
