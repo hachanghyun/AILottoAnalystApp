@@ -3,6 +3,7 @@
     npm install -g expo-cli 
 
 ### expo 프로젝트 만들어주는 명령어
+    expo init "프로젝트명"
     npx react-native init awsSaaSummaryApp
     
 ### node module 설치 명령어(패키지안에서 실행)
