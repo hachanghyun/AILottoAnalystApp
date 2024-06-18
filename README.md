@@ -2,7 +2,7 @@
   https://github.com/hachanghyun/awsSaaSummaryServer
 
 ## FrontEnd Deployment URL
-  https://github.com/hachanghyun/AwsSaaSumApp
+  https://github.com/hachanghyun/AILottoAnalystApp
 
 ## expo 설치가이드
 ### expo-cli 전역으로 설치해주는 명령어
